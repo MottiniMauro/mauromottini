@@ -1,10 +1,10 @@
-url: "mottinimauro.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "mauromottini.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 plugins:
   - jekyll-postcss
 sass:
-  sass_dir: _sass/
   load_paths:
-    - ../node_modules/
+    - _sass
+    - node_modules
 include: ["node_modules/tailwindcss"]
